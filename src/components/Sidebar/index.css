@@ -1,0 +1,35 @@
+
+.sidebar {
+    width: 200px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    padding: 10px 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .sidebar ul li i {
+    margin-right: 10px;
+    font-size: 18px;
+  }
+  
+  .sidebar ul li:hover {
+    background: #f4f4f4;
+  }
+  

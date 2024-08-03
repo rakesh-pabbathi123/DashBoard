@@ -1,0 +1,11 @@
+
+.App {
+  display: flex;
+  background: #f4f4f4;
+}
+
+main {
+  margin-left: 220px;
+  padding: 20px;
+  flex-grow: 1;
+}
